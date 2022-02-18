@@ -13,9 +13,9 @@ lxc.mount.entry: /dev/net dev/net none bind,create=dir
 `chown 100000:100000 /dev/net/tun`
 
 * En container:
-
-`apt-get update && upgrade`  
-(Con Root)  
-`wget https://git.io/wireguard -O wireguard-install.sh && bash wireguard-install.sh`
+ 
+`apt-get update && upgrade`    
+(Con Root)    
+`wget https://git.io/wireguard -O wireguard-install.sh && bash wireguard-install.sh`  
 (Con Sudo)  
 `sudo wget https://git.io/wireguard -O wireguard-install.sh && sudo bash wireguard-install.sh`
