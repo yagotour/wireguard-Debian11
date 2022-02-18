@@ -1,5 +1,6 @@
 # wireguard-Debian11
 
+* Da igual unprivileged container, marcado funciona.
 
 * En proxmox:
 
