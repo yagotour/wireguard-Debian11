@@ -14,7 +14,8 @@ lxc.mount.entry: /dev/net dev/net none bind,create=dir
 
 * En container:
  
-`apt-get update && upgrade`    
+`apt-get update && upgrade` 
+  
 (Con Root):  
   
 `wget https://git.io/wireguard -O wireguard-install.sh && bash wireguard-install.sh`  
